@@ -6,7 +6,7 @@
 
   <name>SafariViewController</name>
 
-  <author>Eddy Verbruggen</author>
+  <author>Eddy Verbruggen(types by Jim Jings)</author>
 
   <description>
     Forget InAppBrowser for iOS - this is way better for displaying read-only web content in your PhoneGap app.

@@ -1,18 +1,6 @@
 SafariViewController Cordova Plugin
 ===================================
 
-[![NPM version][npm-image]][npm-url]
-[![Downloads][downloads-image]][npm-url]
-[![TotalDownloads][total-downloads-image]][npm-url]
-[![Twitter Follow][twitter-image]][twitter-url]
-
-[npm-image]:http://img.shields.io/npm/v/cordova-plugin-safariviewcontroller.svg
-[npm-url]:https://npmjs.org/package/cordova-plugin-safariviewcontroller
-[downloads-image]:http://img.shields.io/npm/dm/cordova-plugin-safariviewcontroller.svg
-[total-downloads-image]:http://img.shields.io/npm/dt/cordova-plugin-safariviewcontroller.svg?label=total%20downloads
-[twitter-image]:https://img.shields.io/twitter/follow/eddyverbruggen.svg?style=social&label=Follow%20me
-[twitter-url]:https://twitter.com/eddyverbruggen
-
 ## 0. Index
 
 1. [Description](#1-description)
@@ -60,7 +48,7 @@ On iOS 10, you can use `barColor` and `controlTintColor` as well
 To install the plugin with the Cordova CLI from npm:
 
 ```
-$ cordova plugin add cordova-plugin-safariviewcontroller
+$ cordova plugin add https://github.com/jimijings11/cordova-plugin-safariviewcontroller
 ```
 
 *Note*: the plugin requires Cordova Android 7.0.0 or later.
