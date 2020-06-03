@@ -1,8 +1,5 @@
-interface CordovaPlugins {
-    googleLogin:SafariViewController;
-}
 
-export interface SafariViewController {
+interface SafariViewController {
     /** Get the version of Cordova running on the device. */
     isAvailable(onError:(message:string) => void):void;
     show(option, onSuccess:(dict) => void,
@@ -20,3 +17,5 @@ export interface SafariViewController {
     useCustomTabsImplementation(packageName,onSuccess:(dict) => void,
     onError:(message:string) => void):void;
 }
+
+declare var safariViewController:SafariViewController;
