@@ -18,4 +18,4 @@ interface SafariViewController {
     onError:(message:string) => void):void;
 }
 
-declare var safariViewController:SafariViewController;
+declare var SafariViewController:SafariViewController;
