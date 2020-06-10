@@ -45,7 +45,8 @@
   } else {
     if (self.animated) {
       // note that Apple dropped support for other animations in iOS 9.2 or 9.3 in favor of a slide-back gesture
-      vc.modalTransitionStyle = [self getTransitionStyle:options[@"transition"]];
+      vc.modalPresentationStyle = UIModalPresentationPopover;
+      // vc.modalTransitionStyle = [self getTransitionStyle:options[@"transition"]];
     }
     [self.viewController presentViewController:vc animated:self.animated completion:nil];
   }
