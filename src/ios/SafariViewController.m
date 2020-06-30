@@ -135,6 +135,7 @@
     NSString * cbid = [self.callbackId copy];
     self.callbackId = nil;
     CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:@{@"event":@"closed"}];
+    [result setKeepCallbackAsBool:YES];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:cbid];
   }
 }
